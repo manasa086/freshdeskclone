@@ -1,0 +1,179 @@
+.lead__page {
+  color: black !important;
+}
+.lead__border {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 540px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.lead__border1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.lead__label {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 10px;
+  float: left;
+  left: 22px;
+}
+.lead__error {
+  position: relative;
+  top: 5px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input {
+  position: relative;
+  top: 10px;
+  font-size: large;
+  width: 550px;
+  height: 25px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.textarea {
+  position: relative;
+  top: 10px;
+  font-size: large;
+  width: 550px;
+  height: 50px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.lead__button {
+  width: 560px;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 15px;
+  background-color: rgb(20, 145, 223);
+  border: 2px solid rgb(20, 145, 223);
+  color: white;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lead__message {
+  position: relative;
+  top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 900px) {
+  .lead__border {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 610px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+  }
+  .lead__border1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 680px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+  }
+  .textarea {
+    position: relative;
+    top: 10px;
+    font-size: large;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+  .input {
+    position: relative;
+    top: 10px;
+    font-size: large;
+    width: 350px;
+    height: 25px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+  .lead__button {
+    width: 360px;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(20, 145, 223);
+    border: 2px solid rgb(20, 145, 223);
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 430px) {
+  .lead__border {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 640px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+  }
+  .lead__border1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 700px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+  }
+  .textarea {
+    position: relative;
+    top: 10px;
+    font-size: large;
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+  .input {
+    position: relative;
+    top: 10px;
+    font-size: large;
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+  .lead__button {
+    width: 260px;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(20, 145, 223);
+    border: 2px solid rgb(20, 145, 223);
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+.lead__anchor {
+  color: rgb(98, 0, 255);
+  position: relative;
+  top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none !important;
+}
